@@ -1,0 +1,72 @@
+// =  Vars
+
+/*-------------------------------------------------*/
+
+// = Import Google Fonts
+
+/*-------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/*-------------------------------------------------*/
+
+$primary-font: 'Source Sans Pro',
+sans-serif;
+$secondary-font: 'Roboto Mono',
+sans-serif;
+$paragraph-font: 'Source Sans Pro',
+sans-serif;
+$primary-color: #222220;
+$primary-color-light: #222220;
+$paragraph-color: #57586E;
+$paragraph-color-light: #57586E;
+$secondary-color: #3C4AED;
+$secondary-color-2: #1D2478;
+$grey-bg: #F8F8F8;
+$template-bg: #3C4AED;
+$dark-bg: #222220;
+
+/*-------------------------------------------------*/
+
+// = Element Color
+
+/*--------- template colors -------------------*/
+
+$dropdown-menu-item-bg: #F8F8F8;
+$border-element-color: #CDCDCD;
+$ctabox-element-bg: #222220;
+$icon-element-icon: #3C4AED;
+$navigation-element-bg: rgba($color: #CDCDCD,
+$alpha: 0.4);
+$code-element-bg: #F8F8F8;
+$icon-element-box-bg: $secondary-color;
+$menu-bg: #FFFFFF;
+
+/*---------- default colors ------------------*/
+
+$icon-element-bg: #F8F8F8;
+$accordion-element-icon: #F8F8F8;
+$accordion-element-bg: #F8F8F8;
+$blockquote-element-bg: #F8F8F8;
+$input-form-bg: #F8F8F8;
+$dropdown-menu-bg: #F8F8F8;
+$button-menu-bg: #F8F8F8;
+$mobile-menu-bg: #F8F8F8;
+$top-menu-bg: #F8F8F8;
+$position-element-bg: #F8F8F8;
+$page-header-bg: #F8F8F8;
+$overlay-dark-bg: #192D35;
+$arrow-headerslider-bg: #F8F8F8;
+
+/*-------------------------------------------------*/
+
+// = Responsive
+
+/*-------------------------------------------------*/
+
+$mobile: 414px;
+$xsmall: 480px;
+$small: 576px;
+$medium: 767px;
+$large: 991px;
+$full: 1199px;

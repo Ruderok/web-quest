@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Quest SMM</title>
+    <link rel="stylesheet" href="../assets/css/style_test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="icon shortcut" href="../assets/img/favicon-32.png" sizes="16x16" type="image/png" />
+</head>
+<body>
+    <div class="start_btn"><button>Начать тестирование</button></div>
+    <a href="../uchebniy.html"><div class="quit_btn"><button >   Вернуться на сайт   </button></div></a>
+    <div class="info_box">
+        <div class="info-title"><span>Информация перед тестом</span></div>
+        <div class="info-list">
+            <div class="info">1. Дается <span>15 секунд</span> на вопрос.</div>
+            <div class="info">2. Вы узнаете, если ответили неправильно.</div>
+            <div class="info">3. Вам покажется количество правильных ответов.</div>
+            <div class="info">4. Имеется возможность пройти сначала.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Выйти</button>
+            <button class="restart">Продолжить</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Ответьте на все вопросы</div>
+            <div class="timer">
+                <div class="time_left_txt">Время</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Продолжить</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Вы завершили викторину!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Повторить</button>
+            <button class="quit">Завершить</button>
+        </div>
+    </div>
+
+    <script src="../assets/js/questions_2.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+</body>
+</html>
